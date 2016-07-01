@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'activeadmin',  '~> 1.0.0.pre4'
 gem 'devise'
 gem "omniauth-google-oauth2"
+gem 'dotenv-rails', :require => 'dotenv/rails-now'
 
 group :development, :test do
   gem 'rspec-rails',       '~> 3.4.0'
