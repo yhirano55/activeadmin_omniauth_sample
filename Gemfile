@@ -11,6 +11,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+gem 'activeadmin',  '~> 1.0.0.pre4'
+gem 'devise'
+
 group :development, :test do
   gem 'rspec-rails',       '~> 3.4.0'
   gem 'shoulda-matchers',  '~> 2.8.0',  require: false
